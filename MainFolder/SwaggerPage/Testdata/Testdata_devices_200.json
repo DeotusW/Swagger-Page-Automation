@@ -1,0 +1,16 @@
+[
+        {
+            "Element" : "post_devices__serialNumber__activate_responses",
+            "EndpointName" : "Devices-Activation",
+            "Action": "activation",
+            "DownArrowID": "operations-Devices-Activation"
+        },
+        {
+            "Element" : "post_devices__serialNumber__deactivate_responses",
+            "EndpointName" : "Devices-Activation",
+            "Action": "deactivation",
+            "DownArrowID": "operations-Devices-Deactivation"
+
+
+        }
+    ]

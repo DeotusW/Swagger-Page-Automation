@@ -1,0 +1,23 @@
+[
+      {
+            "request" : "GET",
+            "endpoint" : "/statuses",
+            "endpoint_desc": "Endpoint to get all the list of status based on criteria passed in.",
+            "button_color" : "rgb(97, 175, 254)",
+            "ID": "operations-Statuses-Statuses"
+      },
+      {
+            "request" : "GET",
+            "endpoint" : "/statuses/{statusId}",
+            "endpoint_desc": "Endpoint to get a specific status based on the status ID.",
+            "button_color" : "rgb(97, 175, 254)",
+            "ID": "operations-Statuses-Status_by_ID"
+      },
+      {
+            "request" : "POST",
+            "endpoint" : "/statuses/{statusId}/cancel",
+            "endpoint_desc": "Endpoint to mark the provided status ID to be canceled.",
+            "button_color" : "rgb(73, 204, 144)",
+            "ID": "operations-Statuses-Cancel_status_by_ID"
+      }
+]

@@ -1,0 +1,28 @@
+[
+        {
+            "action" : "Activation",
+            "endpoint" : "/devices/{serialNumber}/activate",
+            "endpoint_desc": "Endpoint to begin the activation of a telemetry device.",
+            "description" : "The device serial number to be activated.",
+            "parameter" : "DevicesActivationRequestBody",
+            "parameter_desc" : "The application/json request body for the device activation.",
+            "parameter_value" : {
+            "hardwareType": "ACM",
+            "countryCode": "US"
+            },
+            "parameter_content_type": "application/json"
+        },
+        {
+            "action" : "Deactivation",
+            "endpoint" : "/devices/{serialNumber}/deactivate",
+            "endpoint_desc": "Endpoint to begin the deactivation of a telemetry device.",
+            "description": "The device serial number to be deactivated.",
+            "parameter": "DevicesDeactivationRequestBody",
+            "parameter_desc": "The application/json request body for the device deactivation.",
+            "parameter_value": {
+                "hardwareType": "ACM"
+            },
+            "parameter_content_type": "application/json"
+
+        }
+    ]
